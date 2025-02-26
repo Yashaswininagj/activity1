@@ -1,5 +1,5 @@
  hosts: all
-  become: yes
+ become: yes
   vars:
     app_dir: /home/ubuntu/flask_app
     venv_dir: /home/ubuntu/flask_app/venv
