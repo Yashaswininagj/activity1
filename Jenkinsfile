@@ -15,7 +15,7 @@ pipeline {
         stage('Setup Python Virtual Environment') {
             steps {
                 sh '''
-                echo "yourpassword" | sudo -S apt update
+                echo "Yashaswini@69" | sudo -S apt update
                 sudo apt install -y python3-venv
                 python3 -m venv venv
                 '''
